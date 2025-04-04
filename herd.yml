@@ -1,0 +1,5 @@
+integrations:
+  forge:
+    restaurant.foodly.pro:
+      site-id: 2414606
+      server-id: 825483

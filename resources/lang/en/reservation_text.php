@@ -1,0 +1,26 @@
+<?php
+
+return array (
+  'Country' => 'Country',
+  'Date' => 'Date',
+  'Dear Customer' => 'Dear Customer',
+  'Email' => 'Email',
+  'Event Type' => 'Event Type',
+  'In case of any problem please contact us' => 'In case of any problem please contact us',
+  'Message' => 'Message',
+  'Name' => 'Name',
+  'Order Details' => 'Order Details',
+  'Person' => 'Person',
+  'Phone' => 'Phone',
+  'Place' => 'Place',
+  'Restaurant' => 'Restaurant',
+  'Restaurant Info' => 'Restaurant Info',
+  'Restaurant Reservation System' => 'Restaurant Reservation System',
+  'Table' => 'Table',
+  'Thank you for your reservation, the restaurant administration will respond to you shortly' => 'Thank you for your reservation, the restaurant administration will respond to you shortly',
+  'Thank you, your booking information has been received' => 'Thank you, your booking information has been received!',
+  'Thank you, your booking information has been received!' => 'Thank you, your booking information has been received!',
+  'Time' => 'Time',
+  'User Information' => 'User Information',
+  'administration will contact you soon' => 'Administration will contact you soon',
+);

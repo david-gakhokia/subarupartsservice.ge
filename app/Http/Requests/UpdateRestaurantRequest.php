@@ -1,0 +1,59 @@
+<?php
+
+namespace App\Http\Requests;
+
+use Illuminate\Foundation\Http\FormRequest;
+
+class UpdateRestaurantRequest extends FormRequest
+{
+    /**
+     * Determine if the user is authorized to make this request.
+     *
+     * @return bool
+     */
+    public function authorize()
+    {
+        return true;
+    }
+
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array
+     */
+    public function rules()
+    {
+        $rules = [
+            'ka.name' => 'required',
+            'ka.description' => '',
+            'ka.address' => '',
+            'logo' => '',
+            'cover' => '',
+            'phone' => '',
+            'manager_phone' => '',
+            'email' => '',
+            'manager_email' => '',
+            'whatsapp' => '',
+            'manager_whatsapp' => '',
+            'website' => '',
+            'video_link' => '',
+            'instagram' => '',
+            'facebook' => '',
+            'start_time' => '',
+            'end_time' => '',
+            'map_iframe' => '',
+            'latitude' => '',
+            'longitude' => '',
+            'rank' => '',
+            'status' => 'required',
+        ];
+
+        foreach (config('translatable.locales') as $locale) {
+            $rules[$locale . '.name'] = 'string';
+            $rules[$locale . '.description'] = 'string';
+            $rules[$locale . '.address'] = 'string';
+        }
+
+        return $rules;
+    }
+}

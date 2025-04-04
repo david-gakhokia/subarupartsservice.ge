@@ -1,0 +1,7 @@
+.modal {
+    z-index: 1060; /* Ensure the modal is above the navbar */
+}
+
+.modal-backdrop {
+    z-index: 1055; /* Ensure the backdrop is below the modal but above the navbar */
+}

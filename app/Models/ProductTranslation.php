@@ -11,4 +11,6 @@ class ProductTranslation extends Model
     public $timestamps = true;
 
     protected $fillable = ['name', 'description', 'category_id','place_id' ,'image_link', 'restaurant_id', 'price', 'discounted_price', 'unit','quantity' , 'price_cup_id', 'status', 'rank'];
+    // protected $fillable = ['product_id', 'locale', 'name', 'description'];
+
 }

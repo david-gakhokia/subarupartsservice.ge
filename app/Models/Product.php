@@ -13,6 +13,7 @@ class Product extends Model
 
     protected $guarded = ['id'];
     public $translatedAttributes = ['name', 'description'];
+    protected $fillable = ['price', 'image_link', 'category_id', 'place_id'];
 
 
     protected static function boot()

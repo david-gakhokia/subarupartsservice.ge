@@ -256,7 +256,7 @@ class Impreza2017Seeder extends Seeder
                     'ka' => ['name' => 'ცხაურის მოლდიგნი ( 2020 - 2022 )', 'description' => 'ცხაურის მოლდიგნი ( 2020 - 2022 )'],
                     'en' => ['name' => 'Lower Front Bumper Grille (2020-2022)', 'description' => 'Lower front bumper grille (2020-2022) for Subaru Impreza 2017-2021']
                 ]
-            ],
+            ],            
             [
                 'price' => 50,
                 'image_link' => 'https://static.wixstatic.com/media/3f9f45_ea06dfaf80fe4b79812f1f78f83bfc1f~mv2.jpg/v1/fill/w_143,h_143,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/3f9f45_ea06dfaf80fe4b79812f1f78f83bfc1f~mv2.jpg',
@@ -278,7 +278,7 @@ class Impreza2017Seeder extends Seeder
                     'ka' => ['name' => 'წყლის რადიატორი', 'description' => 'წყლის რადიატორი'],
                     'en' => ['name' => 'Lower Front Bumper Grille', 'description' => 'Lower front bumper grille for Subaru Impreza 2017-2021']
                 ]
-            ],
+            ],            
             [
                 'price' => 100,
                 'image_link' => 'https://static.wixstatic.com/media/3f9f45_d8257074bdfd4ab0bf45a96b72c88914~mv2.jpg/v1/fill/w_143,h_143,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/3f9f45_d8257074bdfd4ab0bf45a96b72c88914~mv2.jpg',
@@ -300,7 +300,7 @@ class Impreza2017Seeder extends Seeder
                     'ka' => ['name' => 'წინა ბამპერის დამჭერი რკინა', 'description' => 'წინა ბამპერის დამჭერი რკინა'],
                     'en' => ['name' => '.', 'description' => '']
                 ]
-            ],
+            ],            
             [
                 'price' => 50,
                 'image_link' => 'https://static.wixstatic.com/media/3f9f45_f681c8ff66d24fcb8ab723627231fcff~mv2.jpg/v1/fill/w_143,h_143,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/3f9f45_f681c8ff66d24fcb8ab723627231fcff~mv2.jpg',
@@ -397,7 +397,7 @@ class Impreza2017Seeder extends Seeder
                 ]
             ],
 
-
+            
             [
                 'price' => 20,
                 'image_link' => 'https://static.wixstatic.com/media/3f9f45_075df9ac13ca4ee485df6221f6d48ff3~mv2.jpg/v1/fill/w_169,h_143,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/3f9f45_075df9ac13ca4ee485df6221f6d48ff3~mv2.jpg',
@@ -432,7 +432,7 @@ class Impreza2017Seeder extends Seeder
                     'ka' => ['name' => 'უკანა რაზვალნი ტულკა', 'description' => ''],
                     'en' => ['name' => 'Water Tank', 'description' => 'Water tank for Subaru Impreza 2017-2021']
                 ]
-            ],
+            ],            
 
             [
                 'price' => 30,
@@ -444,7 +444,7 @@ class Impreza2017Seeder extends Seeder
                     'ka' => ['name' => 'შარავოი ( ბურთულა სახსარი )', 'description' => ''],
                     'en' => ['name' => 'Water Tank', 'description' => 'Water tank for Subaru Impreza 2017-2021']
                 ]
-            ],
+            ], 
 
 
             [
@@ -469,7 +469,7 @@ class Impreza2017Seeder extends Seeder
                     'en' => ['name' => 'Front Hub (NTY)', 'description' => 'Front hub (NTY) for Subaru Impreza 2017-2021']
                 ]
             ],
-
+            
 
         ];
 

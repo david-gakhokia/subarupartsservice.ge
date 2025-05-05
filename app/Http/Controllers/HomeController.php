@@ -16,6 +16,7 @@ class HomeController extends Controller
         $categories = Category::with('children')
             ->translatedIn(app()->getLocale())
             ->orderBy('rank', 'ASC')
+            ->where('status', 1)
             ->get();
 
         return view('front.home', compact('categories'));

@@ -117,8 +117,7 @@ class CategoryController extends Controller
     public function mainCategories()
     {
 
-        $mainCategories = Category::where('status', 1)
-            ->where('restaurant_id', '=', Auth::user()->restaurant_id)
+        $mainCategories = Category::where('restaurant_id', '=', Auth::user()->restaurant_id)
             ->where('parent_id', '=', null)
             ->orderBy('rank', 'ASC')
             ->get();
@@ -175,7 +174,7 @@ class CategoryController extends Controller
         Category::findOrFail($id)->update($data);
 
         return redirect()
-            ->route('all-categories')
+            ->route('main-categories')
             ->withSuccessMessage(__('alerts.Record has been updated'));
     }
 

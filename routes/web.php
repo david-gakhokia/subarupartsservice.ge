@@ -29,6 +29,11 @@ use Illuminate\Support\Facades\Artisan;
 
 Auth::routes();
 
+Route::get('/form', function () {
+    return view('front.form');
+});
+
+
 Route::get('/', [HomeController::class, 'index']);
 Route::get('category/{id}', [HomeController::class, 'category']);
 Route::get('/products/filter', [HomeController::class, 'filter'])->name('products.filter');
